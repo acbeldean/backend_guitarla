@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/guitars",
+      "handler": "guitar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guitars/count",
+      "handler": "guitar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guitars/:id",
+      "handler": "guitar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/guitars",
+      "handler": "guitar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/guitars/:id",
+      "handler": "guitar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/guitars/:id",
+      "handler": "guitar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
