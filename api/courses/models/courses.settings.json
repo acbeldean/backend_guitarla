@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "courses",
   "info": {
     "name": "courses",
@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "content": {
-      "type": "string",
-      "required": true
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -29,6 +25,14 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
