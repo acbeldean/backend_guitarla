@@ -50,6 +50,7 @@ Para poder desarrollar el proyecto son necesarias las siguientes variables de en
 `DATABASE_PORT`
 
 `DATABASE_NAME`
+
 `DATABASE_USERNAME`
 
 `DATABASE_PASSWORD`
